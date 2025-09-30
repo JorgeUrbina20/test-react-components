@@ -21,7 +21,7 @@ function TarjetaProducto(props) {
         <>
             <div className="contenedor-principal">
                 <figure>
-                    <img src={props.urlImage} alt={props.titulo} />
+                    <img src={props.urlImage} alt={props.titulo} className="img" />
                 </figure>
                 <h1>{props.titulo}</h1>
                 <p>{props.descripcion}</p>

@@ -1,11 +1,15 @@
 import React from "react";
 import "../Styles/App.css"
+import MUI1 from "../Images/pantalonVenta.png";
+import MUI2 from "../Images/gorraVenta.webp";
+import MUI3 from "../Images/camisaVenta.webp";
 import img1 from "../Images/camisaVenta.webp"
 import img2 from "../Images/gorraVenta.webp"
 import img3 from "../Images/pantalonVenta.png"
 import TP from "../Components/uso-props";
 import Contador from "./contador.jsx";
 import LT from "./lista-tarea.jsx";
+import ImgMediaCard from "./card.jsx"
 
 function App() {
   return (
@@ -37,6 +41,22 @@ function App() {
         <br />
         {/* Componente de lista de tareas mas reloj renderizados juntos*/}
         <LT />
+
+        {/* Componente importado desde Materia UI */}
+        <div className="divMUI">
+          <ImgMediaCard 
+            img={MUI1} 
+            descripcion="Pantalon Venta"
+          />
+          <ImgMediaCard 
+            img={MUI2} 
+            descripcion="Gorra Venta"
+          />
+          <ImgMediaCard 
+            img={MUI3} 
+            descripcion="Camisa Venta"
+            />
+        </div>
       </>
   )
 }

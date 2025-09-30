@@ -12,7 +12,6 @@ por eso es como una sola hoja, pongo el estilo de Card.jsx*/
     user-select: none;
     border-radius: 5%;
     margin: 30px;
-    margin-top: -18rem;
     box-shadow: 0px 15px 12px rgb(16, 104, 236);
 }
 .contenedor-principal{

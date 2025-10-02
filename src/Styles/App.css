@@ -1,3 +1,6 @@
+*{
+    background-color: #e4e9ed;
+}
 .principal{
     display: flex;
     flex-direction: row;

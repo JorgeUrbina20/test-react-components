@@ -2,8 +2,7 @@
 el siempre lo hace funcionar como si solo fuera un estilo unico
 por eso es como una sola hoja, pongo el estilo de Card.jsx*/
 .divMUI{
-    width: 79rem;
-    height: 31rem;
+    
     display: flex;
     gap: 4rem;
     justify-content: center;

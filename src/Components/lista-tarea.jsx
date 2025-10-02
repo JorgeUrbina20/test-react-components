@@ -47,7 +47,7 @@ function ListaTareas() {
             onClick={agregarTarea}
             />
         </span>
-        < Reloj/>
+        <Reloj />
       </span>
 
       <div className="contenedorTareas">

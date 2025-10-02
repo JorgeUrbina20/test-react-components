@@ -26,7 +26,7 @@ function TarjetaProducto(props) {
                 <h1>{props.titulo}</h1>
                 <p>{props.descripcion}</p>
                 <p><strong>${props.precio}</strong></p>
-                <button className="btn">Comprar</button>
+                <button className="btn btn-warning">Comprar</button>
             </div>
         </>
     )

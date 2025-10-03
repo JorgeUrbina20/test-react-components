@@ -51,7 +51,7 @@ function Navbar() {
             </Nav.Item>
         </Nav>
 
-        <Container className='mt-4'>
+        <Container className='mt-4' fluid>
             {barraActiva==="Inicio" && <Inicio />}
             {barraActiva==="Tarjeta_1" && <TargetaProduc />}
             {barraActiva==="Targeta_2" && < SetCard/>}
